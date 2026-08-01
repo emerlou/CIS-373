@@ -10979,7 +10979,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 25rem; /*changed from 15rem to 25rem by EG on 8/1/2026 */
 }
 
 @media (min-width: 992px) {
@@ -10988,11 +10988,11 @@ html {
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 3rem; /*changed from 4rem to 3rem by EG on 8/1/2026 */
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
-    font-size: 1.5rem;
+    font-size: 1.0rem; /*changed from 1.5rem to 1rem by EG on 8/1/2026 */
   }
 }
 .portfolio .portfolio-item {
