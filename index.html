@@ -204,6 +204,45 @@
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Radio buttons for Contact Form -->
+                            <div>
+                                <p><h5>Vote: What was the most informative part of the site?</h5></p>
+                                <input type="radio" id="new_recipes" name="learn_type" value="newrecipes">
+                                <label for="recipes">Learning New Recipes</label><br>
+                                <input type="radio" id="new_skills" name="learn_type" value="newskills">
+                                <label for="newskills">Learning New Skills</label><br>
+                                <input type="radio" id="new_subs" name="learn_type" value="newsubs">
+                                <label for="newsubs">Learning Substitutions</label>
+                            </div>
+                            <!-- Check boxes for favorite recipe-->
+                            <div>
+                                <p><h5>Please tell me which recipes you liked best:</h5></p>
+                                <input type="checkbox" id="scrambled_eggs" name="favorite_recipe" value="scrambledeggs">
+                                <label for="scrambled_eggs">Scrambled Eggs</label><br>
+                                <input type="checkbox" id="grilled_cheese" name="favorite_recipe" value="grilledcheese">
+                                <label for="grilled_cheese">Grilled Cheese</label><br>
+                                <input type="checkbox" id="garlic_butter_pasta" name="favorite_recipe" value="garlicbutterpasta">
+                                <label for="garlic_butter_pasta">Garlic Butter Pasta</label><br>
+                                <input type="checkbox" id="ground_beef_tacos" name="favorite_recipe" value="groundbeeftacos">
+                                <label for="ground_beef_tacos">Ground Beef Tacos</label><br>
+                                <input type="checkbox" id="vegetable_stir_fry" name="favorite_recipe" value="vegetablestirfry">
+                                <label for="vegetable_stir_fry">Vegetable Stir Fry</label><br>
+                                <input type="checkbox" id="sheet_pan_chicken" name="favorite_recipe" value="sheetpanchicken">
+                                <label for="sheet_pan_chicken">Sheet Pan Chicken and Vegetables</label><br>
+                            </div>
+                            <!-- Dropdown for Contact Preference -->
+                            <div>
+                                <p><h5>How would you like me to contact you?</h5></p>
+                                <label for="contact_preference">Options: </label>
+                                <select name="contact_preference" id="contact_preference">
+                                    <option value=" " selected> Select Option</option>
+                                    <option value="email">Email</option>
+                                    <option value="phone">Phone</option>
+                                    <option value="none">No Contact</option>
+                                    <option value="Other">Other (enter alternate option)</option>
+                                </select>
+                                <input type="text" id="other_option">
+                            </div>
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
